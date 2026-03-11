@@ -1,4 +1,4 @@
-```
+```bash
 <!-- KyronLabs Organization README -->
 
 <p align="center">
