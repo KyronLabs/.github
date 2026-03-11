@@ -51,7 +51,7 @@ KyronLabs exists to prove that social media does not require surveillance capita
 
 The core application. Flutter frontend, Node.js backend, AT Protocol identity layer.
 
-```
+```bash
 
 git clone https://github.com/KyronLabs/kyron.git
 cd kyron && flutter run
