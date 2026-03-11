@@ -1,143 +1,138 @@
-```bash
 <!-- KyronLabs Organization README -->
 
-<p align="center">
-  <img src="https://kyron.spidroid.com/images/logo_with_bg.webp" width="120" height="120" alt="KyronLabs Logo">
-</p>
+<div align="center">
 
-<h1 align="center">KyronLabs</h1>
-<p align="center">
-  <em>A Spidroid Technologies Inc. subsidiary</em>
-</p>
+<img src="https://kyron.spidroid.com/images/logo_with_bg.webp" width="100" height="100" alt="KyronLabs Logo" />
 
-<p align="center">
-  Building the <strong>user-owned social stack</strong>.<br>
-  Portable identity. Zero-follower discovery. AR-first creation.<br>
-  <a href="https://kyron.spidroid.com">kyron.spidroid.com</a>
-</p>
+# KyronLabs
 
-<p align="center">
-  <a href="https://github.com/KyronLabs/kyron/stargazers"><img src="https://img.shields.io/github/stars/KyronLabs/kyron?style=social" alt="Stars"></a>
-  <a href="https://github.com/KyronLabs/kyron/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
-  <a href="https://atproto.com"><img src="https://img.shields.io/badge/Built%20on-AT%20Protocol-purple.svg" alt="AT Protocol"></a>
-  <a href="https://kyron.spidroid.com"><img src="https://img.shields.io/badge/Status-Alpha-orange.svg" alt="Status"></a>
-</p>
+**A [Spidroid Technologies Inc.](https://spidroid.com) subsidiary**
+
+*Your identity. Your data. Your audience. Your equity.*
+
+[![Stars](https://img.shields.io/github/stars/KyronLabs/kyron?style=social)](https://github.com/KyronLabs/kyron/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/KyronLabs/kyron/blob/main/LICENSE)
+[![Built on AT Protocol](https://img.shields.io/badge/Built%20on-AT%20Protocol-purple.svg)](https://atproto.com)
+[![Status](https://img.shields.io/badge/Status-Alpha-orange.svg)](https://kyron.spidroid.com)
+
+[Website](https://kyron.spidroid.com) · [Docs](https://docs.kyron.spidroid.com) · [Discord](https://discord.gg/kyron) · [Bluesky](https://bsky.app)
+
+</div>
 
 ---
 
-## Mission
+## ◈ Mission
 
-Reclaim social infrastructure for the people who use it.
+> *Social media does not require surveillance capitalism.*
 
-KyronLabs exists to prove that social media does not require surveillance capitalism. We are building a protocol-native platform where your identity is cryptographically owned, your data exports with one click, your content finds audience without buying followers, and your creativity earns equity rather than mere exposure.
+KyronLabs exists to prove it. We're building a protocol-native platform where:
 
----
-
-## What We Are Building
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| Client | Flutter plus Impeller | 120fps cross-platform for iOS, Android, Web, and Desktop |
-| Protocol | AT Protocol | Decentralized identity and data portability |
-| Discovery | Pinecone plus Redis | Real-time vector-ranked feeds |
-| Creation | MediaPipe | On-device AR at 30fps with sub-6MB models |
-| Economy | Smart contracts | Creator equity pool with 10 percent revenue redistribution |
+- 🔑 **Your identity** is cryptographically owned — not rented from a platform
+- 📦 **Your data** exports with one click, always
+- 🔍 **Your content** finds its audience without buying followers
+- 💰 **Your creativity** earns equity, not just exposure
 
 ---
 
-## Active Repositories
+## ◈ The Stack
 
-### kyron
+| Layer | Technology | What It Does |
+|:------|:-----------|:-------------|
+| **Client** | Flutter + Impeller | 120fps across iOS, Android, Web & Desktop |
+| **Protocol** | AT Protocol | Decentralized identity & data portability |
+| **Discovery** | Pinecone + Redis | Real-time vector-ranked feeds |
+| **Creation** | MediaPipe | On-device AR at 30fps · sub-6MB models |
+| **Economy** | Smart contracts | Creator equity pool · 10% revenue redistribution |
 
-The core application. Flutter frontend, Node.js backend, AT Protocol identity layer.
+---
+
+## ◈ Repositories
+
+### [`kyron`](https://github.com/KyronLabs/kyron) — Core Application
+Flutter frontend · Node.js backend · AT Protocol identity layer
 
 ```bash
-
 git clone https://github.com/KyronLabs/kyron.git
 cd kyron && flutter run
-
 ```
 
-### kyron-web
+### [`kyron-web`](https://github.com/KyronLabs/kyron-web) — Web Presence
+Marketing site, documentation, and landing pages built with Next.js + Tailwind.
 
-Marketing site, documentation, and landing pages. Built with Next.js and Tailwind.
-
-### atproto-extensions
-
+### [`atproto-extensions`](https://github.com/KyronLabs/atproto-extensions) — Protocol Research
 Experimental AT Protocol extensions for AR metadata and creator equity tracking.
 
-### design-system
-
-Kyron's iOS-inspired component library. Figma, Storybook, and Flutter widgets.
-
----
-
-## Ecosystem
-
-KyronLabs operates under Spidroid Technologies Inc. with the following structure:
-
-- KyronLabs houses the main application, marketing site, protocol research, and UI/UX systems
-- Spidroid Technologies Inc. provides infrastructure, DevOps, and corporate governance
-- Community engagement occurs via Discord, Bluesky, and Twitter
+### [`design-system`](https://github.com/KyronLabs/design-system) — UI/UX Foundation
+iOS-inspired component library — Figma, Storybook, and Flutter widgets, unified.
 
 ---
 
-## Contributing
+## ◈ Ecosystem
 
-We accept contributions under the Developer Certificate of Origin.
+```
+Spidroid Technologies Inc.
+└── KyronLabs
+    ├── kyron              (application)
+    ├── kyron-web          (marketing & docs)
+    ├── atproto-extensions (protocol research)
+    └── design-system      (UI/UX)
+```
 
-1. Read CONTRIBUTING.md in the main repository
-2. Sign your commits using git commit -s
-3. Open a pull request against the main branch
-
-Contributor Equity: Merged pull requests earn Kyron Points convertible to future token warrants.
+Spidroid Technologies provides infrastructure, DevOps, and corporate governance.
+Community lives on **Discord**, **Bluesky**, and **Twitter/X**.
 
 ---
 
-## Transparency
+## ◈ Contributing
+
+We accept contributions under the **Developer Certificate of Origin**.
+
+1. Read [`CONTRIBUTING.md`](https://github.com/KyronLabs/kyron/blob/main/CONTRIBUTING.md)
+2. Sign your commits — `git commit -s`
+3. Open a pull request against `main`
+
+> **Contributor Equity** — Merged PRs earn **Kyron Points**, convertible to future token warrants. Your code is your stake.
+
+---
+
+## ◈ Transparency
 
 | Metric | Value |
-|--------|-------|
+|:-------|:------|
 | Open source since | 2025 |
 | Core contributors | 6 |
-| Lines of code | 45,000 plus |
-| Test coverage | 82 percent |
-| Alpha users | 1,000 with target of 25,000 |
-| Monthly burn | Zero dollars bootstrap |
+| Lines of code | 45,000+ |
+| Test coverage | 82% |
+| Alpha users | 1,000 → targeting 25,000 |
+| Monthly burn | $0 · fully bootstrapped |
 
 ---
 
-## Security
+## ◈ Security
 
-Bug bounty: Responsible disclosure to security at kyron.spidroid.com
-
-Audit status: Pre-seed with audit scheduled at Series A
-
-Vulnerability policy: See SECURITY.md in the main repository
-
----
-
-## Contact
-
-General inquiries: hello at kyron.spidroid.com
-
-Security: security at kyron.spidroid.com
-
-Press: press at spidroid.com
-
-Legal: legal at spidroid.com
+| | |
+|:--|:--|
+| **Bug bounty** | [security@kyron.spidroid.com](mailto:security@kyron.spidroid.com) |
+| **Audit status** | Pre-seed · full audit scheduled at Series A |
+| **Vulnerability policy** | [`SECURITY.md`](https://github.com/KyronLabs/kyron/blob/main/SECURITY.md) |
 
 ---
 
-KyronLabs is a subsidiary of Spidroid Technologies Inc.
+## ◈ Contact
 
-Copyright 2025 Spidroid Technologies Inc. All rights reserved.
+| | |
+|:--|:--|
+| **General** | [hello@kyron.spidroid.com](mailto:hello@kyron.spidroid.com) |
+| **Security** | [security@kyron.spidroid.com](mailto:security@kyron.spidroid.com) |
+| **Press** | [press@spidroid.com](mailto:press@spidroid.com) |
+| **Legal** | [legal@spidroid.com](mailto:legal@spidroid.com) |
 
-Website: https://kyron.spidroid.com
+---
 
-Documentation: https://docs.kyron.spidroid.com
+<div align="center">
 
-GitHub: https://github.com/KyronLabs
+KyronLabs is a subsidiary of **Spidroid Technologies Inc.**
 
-Discord: https://discord.gg/kyron
-```
+Copyright © 2025 Spidroid Technologies Inc. All rights reserved.
+
+</div>
