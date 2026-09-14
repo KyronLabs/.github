@@ -41,11 +41,11 @@ does not is worth nothing to anybody reading it.
 | | |
 |:--|:--|
 | **Client** | Flutter — Android, Windows and web from one codebase. iOS builds but is not being worked on. |
-| **API** | NestJS on Fastify, 17 REST controllers, Prisma over Postgres, deployed on Fly.io. |
+| **API** | NestJS on Fastify, 17 REST controllers, Prisma over Postgres, deployed on Render. |
 | **Identity** | A DID the account proves it controls — `api/src/modules/identity`. Portable, and not rented from us. |
 | **Messages** | End-to-end encrypted direct messages. |
-| **Feed** | A ranking engine on real engagement signals, with Redis in front of it. |
-| **AR camera** | MediaPipe face mesh, 478 landmarks. Lenses are *data*, so new ones ship without an app release. |
+| **Feed** | A ranking engine on real engagement signals: interests, follows, likes, dwell time, negative feedback and recency. |
+| **AR camera** | MediaPipe face mesh, 478 landmarks. Colour lenses, attachments that track a face, and effects that change one. Lenses are *data*, so new ones ship without an app release. |
 | **Media** | Server-side transcode and poster extraction, off the request thread. |
 
 **Not built yet, and named here so nobody has to find out the hard way:** AT
